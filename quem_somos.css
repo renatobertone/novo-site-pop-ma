@@ -1,0 +1,9 @@
+/* Destaque da imagem na página de Instituições Clientes */
+section img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da tela */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem */
+    border: 5px solid #00e637; /* Adiciona uma borda verde para destacar */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Adiciona sombra à imagem */
+}

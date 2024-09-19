@@ -1,0 +1,60 @@
+/* Estilo do Cabeçalho */
+header {
+    background-color: #ffffff;
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar .nav-link {
+    color: #00e637; /* Verde semelhante ao site PoP-PE */
+    font-weight: bold;
+}
+
+.navbar .nav-link:hover {
+    color: #006400; /* Tom mais escuro ao passar o mouse */
+}
+
+/* Estilo das Seções */
+section {
+    padding: 60px 20px; /* Ajuste para melhor responsividade em telas menores */
+}
+
+/* Estilo da seção Equipe com cor de fundo personalizada */
+.bg-warning {
+    color: #ffffff;
+    background-color: #000a8c !important; /* Azul escuro em vez de amarelo */
+}
+
+/* Estilo de parágrafos e listas */
+.section-content p {
+    text-align: left;
+}
+
+.custom-list {
+    list-style-type: square;
+    padding-left: 20px;
+    text-align: left;
+}
+
+/* Estilo do Rodapé */
+footer {
+    background-color: #000000; /* Rodapé com fundo preto */
+}
+
+footer p {
+    margin: 0;
+    color: #ffffff;
+}
+
+.carousel-caption h5 {
+    font-size: 60px;
+    color: #00e637;
+    text-shadow: 2px 2px 2px black;
+}
+
+.card p {
+    font-size: 15px;
+    color: #00e637;
+}
